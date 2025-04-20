@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 926.0, 848.0 ],
+		"rect" : [ 256.0, 100.0, 926.0, 848.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridsize" : [ 15.0, 15.0 ],
@@ -37,7 +37,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.0, 258.0, 72.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 16.5, 150.0, 21.0 ],
+					"presentation_rect" : [ 26.000000774860382, 1.5, 69.666668742895126, 21.0 ],
 					"text" : "debug off"
 				}
 
@@ -64,7 +64,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 60.0, 17.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 15.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 24.0, 24.0 ],
 					"svg" : ""
 				}
 
@@ -97,7 +97,7 @@
 				"box" : 				{
 					"comment" : "message: \"debug on\" or \"debug off\"",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -168,7 +168,9 @@
 
 			}
  ],
-		"originid" : "pat-1239",
+		"originid" : "pat-422",
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "rnbodefault",
 				"default" : 				{

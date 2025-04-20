@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 34.0, 100.0, 1073.0, 848.0 ],
 		"openinpresentation" : 1,
 		"default_fontname" : "Ableton Sans Medium",
 		"gridsize" : [ 15.0, 15.0 ],
@@ -20,49 +20,22 @@
 		"title" : "8TLR Router",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-196",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-44",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "debug-toggle.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 211.200002253055573, 725.600010812282562, 61.0, 23.0 ],
-					"text" : "debug off"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-197",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.200002253055573, 725.600010812282562, 58.0, 23.0 ],
-					"text" : "debug on"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-189",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 216.0, 620.800009250640869, 61.0, 23.0 ],
-					"text" : "debug off"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-187",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 624.0, 58.0, 23.0 ],
-					"text" : "debug on"
+					"patching_rect" : [ 1796.0, 561.0, 95.666669517755508, 24.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -169,7 +142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 1048.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 1048.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 8 note"
 				}
 
@@ -181,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 1004.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 1004.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 7 note"
 				}
 
@@ -193,7 +166,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 958.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 958.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 6 note"
 				}
 
@@ -205,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 914.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 914.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 5 note"
 				}
 
@@ -217,7 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 868.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 868.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 4 note"
 				}
 
@@ -229,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 824.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 824.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 3 note"
 				}
 
@@ -241,7 +214,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 778.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 778.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 2 note"
 				}
 
@@ -253,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1765.0, 732.0, 182.0, 23.0 ],
+					"patching_rect" : [ 1765.0, 732.0, 185.0, 23.0 ],
 					"text" : "message-controller plump 1 note"
 				}
 
@@ -265,7 +238,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 1048.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 1048.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 8 note"
 				}
 
@@ -277,7 +250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 1004.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 1004.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 7 note"
 				}
 
@@ -289,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 958.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 958.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 6 note"
 				}
 
@@ -301,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 914.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 914.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 5 note"
 				}
 
@@ -313,7 +286,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 868.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 868.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 4 note"
 				}
 
@@ -325,7 +298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 824.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 824.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 3 note"
 				}
 
@@ -337,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 778.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 778.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 2 note"
 				}
 
@@ -349,7 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1545.0, 732.0, 186.0, 23.0 ],
+					"patching_rect" : [ 1545.0, 732.0, 189.0, 23.0 ],
 					"text" : "message-controller cosmic 1 note"
 				}
 
@@ -361,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 1048.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 1048.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 8 note"
 				}
 
@@ -373,7 +346,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 1004.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 1004.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 7 note"
 				}
 
@@ -385,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 958.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 958.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 6 note"
 				}
 
@@ -397,7 +370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 914.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 914.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 5 note"
 				}
 
@@ -409,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 868.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 868.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 4 note"
 				}
 
@@ -421,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 824.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 824.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 3 note"
 				}
 
@@ -433,7 +406,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 778.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 778.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 2 note"
 				}
 
@@ -445,7 +418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1321.0, 732.0, 185.0, 23.0 ],
+					"patching_rect" : [ 1321.0, 732.0, 187.0, 23.0 ],
 					"text" : "message-controller tiffany 1 note"
 				}
 
@@ -457,7 +430,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 1048.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 1048.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 8 note"
 				}
 
@@ -469,7 +442,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 1004.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 1004.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 7 note"
 				}
 
@@ -481,7 +454,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 958.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 958.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 6 note"
 				}
 
@@ -493,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 914.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 914.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 5 note"
 				}
 
@@ -505,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 868.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 868.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 4 note"
 				}
 
@@ -517,7 +490,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 824.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 824.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 3 note"
 				}
 
@@ -529,7 +502,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 778.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 778.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 2 note"
 				}
 
@@ -541,7 +514,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1097.0, 732.0, 188.0, 23.0 ],
+					"patching_rect" : [ 1097.0, 732.0, 191.0, 23.0 ],
 					"text" : "message-controller pomelo 1 note"
 				}
 
@@ -553,7 +526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 1048.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 1048.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 8 note"
 				}
 
@@ -565,7 +538,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 1004.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 1004.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 7 note"
 				}
 
@@ -577,7 +550,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 958.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 958.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 6 note"
 				}
 
@@ -589,7 +562,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 914.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 914.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 5 note"
 				}
 
@@ -601,7 +574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 868.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 868.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 4 note"
 				}
 
@@ -613,7 +586,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 824.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 824.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 3 note"
 				}
 
@@ -625,7 +598,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 778.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 778.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 2 note"
 				}
 
@@ -637,7 +610,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 732.0, 184.0, 23.0 ],
+					"patching_rect" : [ 863.0, 732.0, 186.0, 23.0 ],
 					"text" : "message-controller durian 1 note"
 				}
 
@@ -649,7 +622,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 1048.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 1048.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 8 note"
 				}
 
@@ -661,7 +634,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 1004.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 1004.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 7 note"
 				}
 
@@ -673,7 +646,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 958.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 958.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 6 note"
 				}
 
@@ -685,7 +658,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 914.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 914.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 5 note"
 				}
 
@@ -697,7 +670,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 868.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 868.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 4 note"
 				}
 
@@ -709,7 +682,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 824.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 824.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 3 note"
 				}
 
@@ -721,7 +694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 778.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 778.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 2 note"
 				}
 
@@ -733,7 +706,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 607.0, 732.0, 201.0, 23.0 ],
+					"patching_rect" : [ 607.0, 732.0, 203.0, 23.0 ],
 					"text" : "message-controller tangerine 1 note"
 				}
 
@@ -757,7 +730,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 1048.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 1048.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 8 note"
 				}
 
@@ -769,7 +742,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 1004.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 1004.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 7 note"
 				}
 
@@ -781,7 +754,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 958.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 958.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 6 note"
 				}
 
@@ -793,7 +766,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 914.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 914.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 5 note"
 				}
 
@@ -805,7 +778,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 868.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 868.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 4 note"
 				}
 
@@ -817,7 +790,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 822.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 822.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 3 note"
 				}
 
@@ -829,7 +802,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 778.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 778.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 2 note"
 				}
 
@@ -841,7 +814,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 732.0, 191.0, 23.0 ],
+					"patching_rect" : [ 383.0, 732.0, 193.0, 23.0 ],
 					"text" : "message-controller hydrant 1 note"
 				}
 
@@ -1245,7 +1218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1024.0, 3132.0, 50.0, 23.0 ],
-					"text" : "5"
+					"text" : "15"
 				}
 
 			}
@@ -2412,7 +2385,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 364.0, 2056.0, 110.857145547866821, 23.0 ],
-					"text" : "tiffany"
+					"text" : "plump"
 				}
 
 			}
@@ -2689,7 +2662,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-23",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW", ",", "Eight Track LR v7.0.0.amxd" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2704,7 +2677,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW", ",", "Eight Track LR v7.0.0.amxd" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2719,7 +2692,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW", ",", "Eight Track LR v7.0.0.amxd" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2734,7 +2707,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW", ",", "Eight Track LR v7.0.0.amxd" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC Router to Reason 1", ",", "IAC Router to Reason 2", ",", "IAC Router to Reason 3", ",", "IAC Router to Reason 4", ",", "IAC Live to Router", ",", "IAC Live to Reason", ",", "IAC Stream Deck to Traktor", ",", "IAC Traktor to Stream Deck", ",", "from Max 1", ",", "from Max 2", ",", "Launchpad Pro MK3 LPProMK3 MIDI", ",", "Launchpad Pro MK3 LPProMK3 DIN", ",", "Launchpad Pro MK3 LPProMK3 DAW" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3583,36 +3556,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-187", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-189", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-196", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-197", 0 ]
 				}
 
 			}
@@ -4495,8 +4440,15 @@
 
 			}
  ],
-		"originid" : "pat-1076",
+		"originid" : "pat-290",
 		"dependency_cache" : [ 			{
+				"name" : "debug-toggle.maxpat",
+				"bootpath" : "~/Git/8tlr-router-max/8TLR Router Project/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "message-controller.maxpat",
 				"bootpath" : "~/Git/8tlr-router-max/8TLR Router Project/patchers",
 				"patcherrelativepath" : ".",
@@ -4505,6 +4457,7 @@
 			}
  ],
 		"autosave" : 0,
+		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"locked_bgcolor" : 			{
 				"expression" : "themecolor.live_surface_bg"
